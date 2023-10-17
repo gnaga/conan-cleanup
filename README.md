@@ -1,4 +1,6 @@
-## Clean up of Conan artifactory remote repository 
+## Clean up of Conan artifactory remote repository
+***Note:* Instead of Deleting artifact, this script will move to backup repository**
+
 Below script will perform 
 1. Find the conan packages that are not used in last 90 days
 2. Move them to another repo (provided by the user).
